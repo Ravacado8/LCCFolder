@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>my index page</title>
+    <style>
+        div {
+            background: yellow;
+            width: 202px;
+            height: 400px;
+            border: 29px solid red;
+            border-bottom: 20px solid red;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 1px;
+            border-top-right-radius: 200px;
+            box-shadow: 20px 30px 30px pink;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 200px;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+            left: 200px;
+            top: -150;
+        }
+
+        .fixed {
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            background: pink
+        }
+
+        .absolute {
+            position: absolute;
+            right: 0px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="static">
+        <p>static box</p>
+    </div>
+
+    <div class="relative">
+        <p>relative box</p>
+    </div>
+
+    <div class="fixed">
+        <p>fixed box</p>
+    </div>
+
+    <div class="absolute">
+        <p>absolute box</p>
+    </div>
+
+    <div class="sticky">
+        <p>sticky box</p>
+    </div>
+
+</body>
+
+</html>
