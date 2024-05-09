@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>my grid page</title>
+    <style>
+        body {
+            background-color: pink;
+
+            .container {
+                display: grid;
+                grid-template-columns: 100px 2fr 100px;
+                grid-template-rows: 200px 1fr 150px;
+                gap: 0px 10px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "Head Head Head"
+                    "left Poop-fart right"
+                    "Feet Feet Feet";
+            }
+
+            header {
+                grid-area: Head;
+                background: hotpink;
+            }
+
+            footer {
+                grid-area: Feet;
+                background: purple
+            }
+
+            .Poop-fart {
+                grid-area: Poop-fart;
+                background: powderblue;
+            }
+
+            .right {
+                grid-area: right;
+                background: palegoldenrod;
+            }
+
+            .left {
+                grid-area: left;
+                background: plum;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+      <header>
+        <h1>Page Tit</h1>
+        <p>There is a gnome for every holiday 🧌</p>
+      </header>
+        
+        <div class="Poop-fart">
+          <p>poop fart</p>
+          <p>First comes the punishment from God, then comes the tingiling sensation.</p>
+        </div>
+        <div class="right"><p>ggag</p>
+        <p>Serve ggag realness</p>
+      <p>Ggag on the shlogg 👠</p></div>
+        <div class="left"><p>Peanits</p>
+        <p>ah ah ah 😭</p>
+      <p>Im feeling freakalicious 😛</p></div>
+        <footer><p>Shiggle my Giggle</p>
+        <p>Sooo NarnarB0B0🫄</p></footer>
+    </div>
+
+</body>
+
+
+</html>
